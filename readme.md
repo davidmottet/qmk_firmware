@@ -39,4 +39,6 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Command line
 ```sh
 $ util/docker_build.sh planck/rev6:default
+$ util/docker_build.sh planck/rev6:zaal
+$ sudo make planck/rev6:zaal:dfu
 ```
